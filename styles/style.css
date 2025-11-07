@@ -262,3 +262,165 @@ nav ul li a button {
     font-weight: 400;
     line-height: 29px;
 }
+
+/* Opinion Section */
+
+.opinion .title {
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-top: 96px;
+    margin-bottom: 24px;
+}
+
+.opinion .opinion-table-container {
+    border-radius: 16px;
+    padding: 38px;
+    background: rgba(255, 255, 255, 1);
+}
+
+table, td {
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+}
+
+.questions {
+    padding: 24px;
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.select {
+    padding-left: 0px;
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.select-cell {
+    padding: 29px;
+}
+
+.select-cell .select-dropdown-wrapper select {
+    padding: 14px 19px;
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+}
+
+thead tr {
+    background: rgba(198, 228, 214, 1);
+}
+
+tbody td {
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 43px 29px;
+}
+
+/* news section */
+.news .title {
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-top: 96px;
+    margin-bottom: 29px;
+}
+
+.news .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 38px;
+}
+
+.news .news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.news-container .news-card {
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    padding: 57px;
+    display: flex;
+    gap: 38px;
+}
+
+.news-card .image img {
+    border-radius: 24px;
+}
+
+/* .news-card .news-details {
+    padding: 67px;
+} */
+
+.news-card .image img {
+    height: 360px;
+}
+
+.news-card .news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 14px;
+}
+
+.news-card .time {
+    display: flex;
+    gap: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.news-card .news-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 38px;
+}
+
+.news-card button {
+    color: rgba(255, 255, 255, 1);
+    font-family: Fira Sans;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    padding: 15px 31px;
+    border: none;
+}
