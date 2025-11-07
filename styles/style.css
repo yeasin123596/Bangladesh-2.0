@@ -54,10 +54,6 @@ nav ul li a button {
 
 }
 
-/* .banner-details {
-    align-items: center;
-} */
-
 .banner-details .sub-title {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
@@ -91,4 +87,47 @@ nav ul li a button {
 .banner img {
     width: 568px;
     height: 480px;
+}
+
+/* pillars section */
+
+.pillars .pillars-title {
+    color: rgba(14, 14, 14, 1);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-top: 96px;
+    margin-bottom: 38px;
+}
+
+.pillars .pillar-container {
+    display: flex;
+    gap: 28px;
+}
+
+.pillar-container .pillar-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 28px;
+}
+
+.pillar-card .card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+
+.pillar-card .card-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
 }
