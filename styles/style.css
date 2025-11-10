@@ -43,6 +43,12 @@ nav ul li a button {
     line-height: 26px;
 }
 
+nav ul li a button:hover, nav ul li a button:focus {
+    background: rgba(0, 106, 80, 1);
+    box-shadow: 0 0 5px rgba(0, 106, 80, 0.719);
+    color: rgb(255, 255, 255);
+}
+
 /* banner section */
 
 .banner {
@@ -84,6 +90,12 @@ nav ul li a button {
     line-height: 26px;
 }
 
+.banner-details button:hover, .banner-details button:focus {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 106, 80, 0.719);
+    color: rgba(0, 106, 80, 1);
+}
+
 .banner img {
     width: 568px;
     height: 480px;
@@ -112,6 +124,10 @@ nav ul li a button {
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
     padding: 28px;
+}
+
+.pillar-card:hover {
+    box-shadow: 0 0 20px rgba(14, 14, 14, 0.1);
 }
 
 .pillar-container .card-title {
@@ -166,6 +182,10 @@ nav ul li a button {
 
 }
 
+.vision-card:hover {
+    box-shadow: 0 0 20px rgba(14, 14, 14, 0.15);
+}
+
 .vision-card .card-title {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -202,6 +222,12 @@ nav ul li a button {
     background: rgba(84, 144, 245, 1);
 }
 
+.vision-card-digital button:hover, .vision-card-digital button:focus {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(84, 144, 245, 1);
+    color: rgba(84, 144, 245, 1);
+}
+
 .vision-card-green {
 
     background: rgba(198, 228, 214, 1);
@@ -212,6 +238,12 @@ nav ul li a button {
     background: rgba(9, 161, 92, 1);
 }
 
+.vision-card-green button:hover, .vision-card-green button:focus {
+    background: rgb(245,245,245);
+    box-shadow: 0 0 5px rgba(9, 161, 92, 1);
+    color:rgba(9, 161, 92, 1);
+}
+
 .vision-card-modern {
     background: rgba(247, 235, 207, 1);
 }
@@ -219,6 +251,12 @@ nav ul li a button {
 .vision-card-modern button {
     margin-top: 29px;
     background: rgba(255, 194, 57, 1);
+}
+
+.vision-card-modern button:hover , .vision-card-modern button:focus {
+    background: rgb(245,245,245);
+    box-shadow: 0 0 5px rgba(255, 194, 57, 1);
+    color: rgba(255, 194, 57, 1);
 }
 
 /* Quote section */ 
@@ -232,6 +270,10 @@ nav ul li a button {
     background-repeat: no-repeat;
     background-position: 29px 29px ;
     background-size: 76px 76px;
+}
+
+.quote:hover {
+    box-shadow: 0 0 20px rgba(14, 14, 14, 0.15);
 }
 
 .quote .details {
@@ -425,6 +467,12 @@ tbody td {
     border: none;
 }
 
+.news-card button:hover, .news-card button:focus {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 106, 80, 0.719);
+    color: rgba(0, 106, 80, 1);
+}
+
 /* Donate section */
 
 .donate .title {
@@ -460,6 +508,16 @@ tbody td {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
+}
+
+.donate-amount button:hover {
+    background: rgba(0, 106, 80, 1);
+    box-shadow: 0 0 5px rgba(0, 106, 80, 1);
+}
+
+.donate-amount button:focus {
+    background: rgba(0, 106, 80, 1);
+    box-shadow: 0 0 5px rgba(0, 106, 80, 0.719);
     
 }
 
@@ -470,6 +528,14 @@ tbody td {
     font-weight: 700;
     line-height: 57px;
     padding: 48px;
+}
+
+.donate-amount button:hover h1 {
+  color: white;
+}
+
+.donate-amount button:focus h1 {
+  color: white;
 }
 
 .donate .input-box {
@@ -493,6 +559,12 @@ tbody td {
     line-height: 29px;
 }
 
+.donate input:hover, .donate input:focus {
+    box-shadow: 0 0 30px rgba(14, 14, 14, 0.15);
+}
+
+
+
 .donate input::placeholder {
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
@@ -511,6 +583,12 @@ tbody td {
     font-size: 21px;
     font-weight: 600;
     line-height: 26px;
+}
+
+.donate .donate-button:hover, .donate .donate-button:focus {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 106, 80, 0.719);
+    color: rgba(0, 106, 80, 1);
 }
 
 /* Newsletter section  */
@@ -577,6 +655,12 @@ tbody td {
     padding: 20px 40px;
 }
 
+.input-area button:hover {
+    background: rgb(255, 255, 255);
+    color: rgba(0, 106, 80, 1);
+    box-shadow: 0 0 5px rgba(0, 106, 80, 0.719);
+}
+
 .newsletter-card .footer {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -595,7 +679,6 @@ tbody td {
 }
 
 .social-media .title {
-   
     color: rgba(14, 14, 14, 1);
     font-family: Fira Sans;
     font-size: 36px;
