@@ -719,3 +719,19 @@ tbody td {
 .social-media-links img {
     margin-right: 27px;
 }
+
+@media  screen and (max-width: 576px) {
+    .vision .vision-card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }   
+
+    .news .news-container .news-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news .news-container .direction {
+        flex-direction: column-reverse;
+    }
+}
